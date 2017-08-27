@@ -1,0 +1,24 @@
+{
+  "name": "techwraith.com",
+  "version": "1.0.0",
+  "description": "My Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Techwraith/techwraith.com.git"
+  },
+  "author": "techwraith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Techwraith/techwraith.com/issues"
+  },
+  "homepage": "https://github.com/Techwraith/techwraith.com#readme",
+  "dependencies": {
+    "handlebars": "^4.0.10",
+    "markdown-it": "^8.4.0"
+  }
+}
