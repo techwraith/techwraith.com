@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/index.css"></link>
+</head>
+<body>
+  <div class="content">
+    {{{body}}}
+    <div id="signature">
+      <small>– <a href="https://twitter.com/techwraith">@techwraith</a></small>
+    </div>
+    <h2>Essays</h2>
+    <ul id="essays">
+      {{#essays}}
+        <li>
+          <a href="/{{slug}}/">{{title}}</a>
+        </li>
+      {{/essays}}
+    </ul>
+  </div>
+</body>
+</html>
