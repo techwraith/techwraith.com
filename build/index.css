@@ -1,4 +1,4 @@
-@import url('https://rsms.me/interface/interface.css');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Playfair+Display:700|Source+Code+Pro');
 @import url('https://highlightjs.org/static/demo/styles/solarized-light.css');
 
 /*
@@ -60,11 +60,11 @@ table {
 body {
   background-color: #fdf6e3;
 	color: #657b83;
-  font-family: Interface, sans-serif;
+  font-family: 'Crimson Text', serif;
   font-size: 17px;
 	font-weight: 400;
 	line-height: 1.45;
-	padding: 20vh 10px;
+	padding: 20vh 20px;
 }
 
 .content {
@@ -74,16 +74,21 @@ body {
 
 p {margin-bottom: 1.3em;}
 
+strong {font-weight: bold;}
+em {font-style: italic;}
+
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
-  font-family: ;
-  font-weight: inherit;
+  font-weight: 500;
   line-height: 1.2;
+	color: #586e75;
 }
 
 h1 {
   margin-top: 0;
   font-size: 1.296em;
+	font-weight: bold;
+	font-style: normal;
 }
 
 h2 {font-size: 1.215em;}
@@ -95,15 +100,15 @@ h4 {font-size: 1.067em;}
 small, .font_small, h5, h6 {
 	font-size: 0.937em;
 	font-style: italic;
-	color: #859900;
+	color: #93a1a1;
 }
 
 a {
-	color: #b58900;
+	color: #2aa198;
 }
 
 a:visited {
-	color: #859900;
+	color: #2aa198;
 }
 
 a:hover {
@@ -111,13 +116,20 @@ a:hover {
 }
 
 pre, code {
-	font-family: monospace;
 	white-space: pre;
 	margin: 0.5em 0 1.414em;
+	font-size: .878em;
+	font-family: 'Source Code Pro', monospace;
 }
 
 .home-title {
-	color: #2aa198;
+	margin-left: -200vw;
+  width: 4.7em;
+  padding: .6em .6em .6em 200vw;
+  background: #eee8d5;
+	font-size: 2.822em;
+	font-family: 'Playfair Display', serif;
+	color: #657b83;
 }
 
 #signature {
@@ -127,5 +139,24 @@ pre, code {
 }
 
 #signature a {
-	color: #859900;
+	color: #93a1a1;
+}
+
+.home-link {
+	text-decoration: none;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+@media (max-width: 600px) {
+	body {
+		font-size: 13px;
+		padding: 10vh 20px;
+	}
+
+	.home-title {
+		width: 4.2em;
+	}
+
 }
