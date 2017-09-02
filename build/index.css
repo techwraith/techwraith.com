@@ -64,7 +64,7 @@ body {
   font-size: 17px;
 	font-weight: 400;
 	line-height: 1.45;
-	padding: 20vh 20px;
+	padding: 10vh 1rem;
 }
 
 .content {
@@ -123,17 +123,22 @@ pre, code {
 }
 
 .home-title {
-	margin-left: -200vw;
-  width: 4.7em;
-  padding: .6em .6em .6em 200vw;
+	width: 2.4em;
+	float: left;
+	margin: 0 2rem 0 0;
+	padding: 1rem;
   background: #eee8d5;
-	font-size: 2.822em;
+	font-size: 4.139em;
 	font-family: 'Playfair Display', serif;
 	color: #657b83;
 }
 
+.home-content {
+	font-size: 1.467rem;
+}
+
 #signature {
-	margin: 20px 0;
+	margin: 1rem 0;
 	text-align: right;
 	display: block;
 }
@@ -145,18 +150,23 @@ pre, code {
 .home-link {
 	text-decoration: none;
 	position: absolute;
-	top: 20px;
-	left: 20px;
+	top: 1rem;
+	left: 1rem;
 }
 
 @media (max-width: 600px) {
 	body {
-		font-size: 13px;
-		padding: 10vh 20px;
+		font-size: 17px;
+		padding: 1em;
 	}
 
-	.home-title {
-		width: 4.2em;
+  .home-title {
+		font-size: 2.822em;
+		margin-right: 1rem;
+	}
+
+	.home-content {
+		font-size: 1rem;
 	}
 
 }
