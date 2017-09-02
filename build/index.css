@@ -122,6 +122,16 @@ pre, code {
 	font-family: 'Source Code Pro', monospace;
 }
 
+ul {
+	list-style: square;
+	padding-left: 1.296rem;
+}
+
+ol {
+	list-style: decimal-leading-zero;
+	padding-left: 1.6rem;
+}
+
 .home-title {
 	width: 2.4em;
 	float: left;
@@ -152,6 +162,10 @@ pre, code {
 	position: absolute;
 	top: 1rem;
 	left: 1rem;
+}
+
+.essay-title {
+	margin-top: 4.139rem;
 }
 
 @media (max-width: 600px) {
