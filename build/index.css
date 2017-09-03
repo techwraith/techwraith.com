@@ -123,7 +123,8 @@ pre, code {
 }
 
 ul, ol {
-	list-style-position: inside;
+	list-style-position: outside;
+  margin-bottom: 1.45em;
 }
 
 ul {
