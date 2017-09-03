@@ -1,5 +1,5 @@
 
-Most people put a feed of their latests posts on their home page.
+Most people put a feed of their latest posts on their home page.
 
 If that's what you're looking for, you can find a [list of essays][] that I've written below this introduction. You'll notice that there are no dates or any semblance of order to the list. That's intentional, I try to avoid topics that expire with time. If you've read this before and you're looking for something specific (or just looking for something new to read), feel free to skip this and browse below. If not, please read on.
 
