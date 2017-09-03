@@ -61,7 +61,7 @@ body {
   background-color: #fdf6e3;
 	color: #657b83;
   font-family: 'Crimson Text', serif;
-  font-size: 17px;
+  font-size: 20px;
 	font-weight: 400;
 	line-height: 1.45;
 	padding: 10vh 1rem;
@@ -190,7 +190,7 @@ blockquote em, em em {
 
 @media (max-width: 600px) {
 	body {
-		font-size: 17px;
+		font-size: 14px;
 		padding: 1em;
 	}
 
