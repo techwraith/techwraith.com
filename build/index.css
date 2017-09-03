@@ -122,14 +122,33 @@ pre, code {
 	font-family: 'Source Code Pro', monospace;
 }
 
+ul, ol {
+	list-style-position: inside;
+}
+
 ul {
-	list-style: square;
+	list-style-type: square;
 	padding-left: 1.296rem;
 }
 
 ol {
-	list-style: decimal-leading-zero;
+	list-style-type: decimal-leading-zero;
 	padding-left: 1.6rem;
+}
+
+blockquote {
+	padding: 0 1rem;
+	font-size: .878em;
+	font-style: italic;
+	background: #eee8d5;
+	border-left: 1px solid #2aa198;
+	border-right: 1px solid #2aa198;
+	width: 80%;
+	margin: 0 auto;
+}
+
+blockquote em, em em {
+	font-style: normal;
 }
 
 .home-title {
