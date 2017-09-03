@@ -1,3 +1,5 @@
+const startTime = Date.now()
+console.log('starting build\n')
 /* core */
 const fs = require('fs')
 
@@ -82,22 +84,23 @@ if (!buildDir) {
 }
 
 if (templates.style) {
-  console.log('writing css')
+  console.log('  writing css')
   fs.writeFileSync(buildPath + '/index.css', templates.style)
 }
 
 if (templates.js) {
-  console.log('writing js')
+  console.log('  writing js')
   fs.writeFileSync(buildPath + '/index.js', templates.js)
 }
 
-console.log('writing homepage')
+console.log('  writing homepage')
 fs.writeFileSync(buildPath + '/index.html', homepage)
 
-console.log('writing essay pages')
-essayPages.forEach((page) => {
+console.log('  writing essay pages:')
+essayPages.forEach((page, i) => {
   const dirname = page.slug
-  console.log('writing', dirname)
+  console.log('  ' + (i + 1) + '.', dirname)
   fs.mkdirSync(buildPath + '/' + dirname)
   fs.writeFileSync(buildPath + '/' + dirname + '/index.html', page.html)
 })
+console.log('\nfinished in', Date.now() - startTime, 'ms')
