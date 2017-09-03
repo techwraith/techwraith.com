@@ -7,9 +7,9 @@ Before you jump in, introductions are in order:
 
 _**Hi, I'm Dan.**_ I build things for people and computers. Most people on the internet know me as [@techwraith][].
 
-The engineering team at [Eaze][] calls me their leader. My job there is to build a team that pushes our business forward. My goal there is to build a team that is compassionate, collaboratively autonomous, and eager to solve problems for real people. Luckily, these two sides aren't at odds with each other.
+The engineering team at [Eaze][] calls me their leader. My goal there is to build a team that is compassionate, collaboratively autonomous, and eager to solve problems for real people. It's my job to build a team that uses technology to help our business achieve its goals. Luckily, these two sides aren't at odds with each other.
 
-I've been building products with teams of people who use technology to solve real-world problems for over a decade and I've learned a thing or two about what it takes to build great teams, products, and technologies. Its time to start documenting the things I've learned. The goal is to have all of that documentation live here in the form of essays.
+I've been building products with teams of people who use technology to solve real-world problems for over a decade and I've learned a thing or two about what it takes to build great teams, products, and technologies. Its time to start documenting the things I've learned and I plan to keep that documentation here in essay form.
 
 Sometimes long, sometimes short. Sometimes incoherent and meandering, and sometimes, hopefully, interesting and thought provoking. Condensing complex thoughts into long form text forces the mind to shine light on to all of the dark corners of an idea until every aspect is clear. While there is an art to the essay, it's this clarity of thought that I seek when I write.
 
