@@ -48,7 +48,7 @@ An atomic module is really just a superset of a common-js module. It has a packa
 
 It may be best to give an example. Lets create that search form that we were talking about earlier:
 
-##### Package.json
+##### package.json
 
 ```json
 {
@@ -65,7 +65,7 @@ It may be best to give an example. Lets create that search form that we were tal
 
 This isn’t much different than a standard node module’s package.json. You’ll notice that we are including a style property. This is what tells other modules what file to use for it’s css.
 
-search-form.html.hbs
+##### search-form.html.hbs
 
 ```hbs
 <label>{{title}}</label>
