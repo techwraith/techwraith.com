@@ -8,7 +8,7 @@
     "start": "npm run build && npm run start-server",
     "build": "node build",
     "start-server": "node server",
-    "deploy": "surge ./build/ techwraith.com"
+    "deploy": "npm run build && surge ./build/ techwraith.com"
   },
   "repository": {
     "type": "git",

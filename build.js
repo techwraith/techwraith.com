@@ -52,7 +52,8 @@ const templates = {
   home: hbs(readfile('./theme/home.hbs')),
   essay: hbs(readfile('./theme/essay.hbs')),
   style: readfile('./theme/index.css'),
-  js: readfile('./theme/index.js')
+  js: readfile('./theme/index.js'),
+  fourohfour: render('./theme/404.hbs')
 }
 
 /* renders */
@@ -69,6 +70,11 @@ const essayPages = essays.map((essay) => {
 const homepage = templates.layout({
   body: templates.home(intro),
   title: appendSiteTitle('Welcome'),
+  essays: essays
+})
+const fourohfour = templates.layout({
+  body: templates.fourohfour,
+  title: appendSiteTitle('four oh four'),
   essays: essays
 })
 
@@ -95,6 +101,9 @@ if (templates.js) {
 
 console.log('  writing homepage')
 fs.writeFileSync(buildPath + '/index.html', homepage)
+
+console.log('  writing 404')
+fs.writeFileSync(buildPath + '/404.html', fourohfour)
 
 console.log('  writing essay pages:')
 essayPages.forEach((page, i) => {
