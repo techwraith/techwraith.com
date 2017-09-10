@@ -37,7 +37,7 @@
 <h3>What is an Atomic Module?</h3>
 <p>An atomic module is really just a superset of a common-js module. It has a package.json to describe itself, a javascript file to describe its behaviors, a template file to describe its structure, and a css file to describe its style. If the module depends on any other modules, its package.json file lists them so that npm can go out and find them. If a module’s js file(s) need to use one of these dependencies, it uses the require() function. If a css file needs to use the styles of one of it’s dependencies, it uses the <code>@import</code> keyword.</p>
 <p>It may be best to give an example. Lets create that search form that we were talking about earlier:</p>
-<h5>Package.json</h5>
+<h5>package.json</h5>
 <pre class="hljs"><code>{
   <span class="hljs-attr">"name"</span>: <span class="hljs-string">"search-form"</span>,
   <span class="hljs-attr">"version"</span>: <span class="hljs-string">"0.0.1"</span>
@@ -50,7 +50,7 @@
 }
 </code></pre>
 <p>This isn’t much different than a standard node module’s package.json. You’ll notice that we are including a style property. This is what tells other modules what file to use for it’s css.</p>
-<p>search-form.html.hbs</p>
+<h5>search-form.html.hbs</h5>
 <pre class="hljs"><code><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span></span><span class="hljs-template-variable">{{title}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-target"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"button-target"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
