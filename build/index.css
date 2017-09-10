@@ -152,6 +152,12 @@ blockquote em, em em {
 	font-style: normal;
 }
 
+img {
+	max-width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
 .home-title {
 	width: 2.4em;
 	float: left;
@@ -203,4 +209,16 @@ blockquote em, em em {
 		font-size: 1rem;
 	}
 
+}
+
+@media print {
+	body {
+		font-size: 18px;
+	}
+	.home-link, .essays-list, .essays-list-title {
+		display: none;
+	}
+	blockquote {
+		border: none;
+	}
 }
