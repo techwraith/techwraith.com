@@ -138,14 +138,18 @@ ol {
 }
 
 blockquote {
-	padding: 0 1rem;
+	padding: 1rem;
 	font-size: .878em;
 	font-style: italic;
 	background: #eee8d5;
 	border-left: 1px solid #2aa198;
 	border-right: 1px solid #2aa198;
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 auto 1.3rem auto;
+}
+
+blockquote *:last-child {
+	margin-bottom: 0;
 }
 
 blockquote em, em em {
@@ -159,12 +163,13 @@ img {
 }
 
 .home-title {
-	width: 2.4em;
+	width: 100%;
+	box-sizing: border-box;
 	float: left;
-	margin: 0 2rem 0 0;
+	margin: 0 2rem 1.3rem 0;
 	padding: 1rem;
   background: #eee8d5;
-	font-size: 4.139em;
+	font-size: 6.7em;
 	font-family: 'Playfair Display', serif;
 	color: #657b83;
 }
@@ -196,17 +201,8 @@ img {
 
 @media (max-width: 600px) {
 	body {
-		font-size: 14px;
-		padding: 1em;
-	}
-
-  .home-title {
-		font-size: 2.822em;
-		margin-right: 1rem;
-	}
-
-	.home-content {
-		font-size: 1rem;
+		font-size: 20px;
+		padding: 1rem;
 	}
 
 }
