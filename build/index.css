@@ -1,6 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Playfair+Display:700|Source+Code+Pro');
-@import url('https://highlightjs.org/static/demo/styles/solarized-light.css');
+@import url('https://highlightjs.org/static/demo/styles/mono-blue.css');
 
+/* variables */
+html {
+	/* Solarized Light
+
+	--background: #fdf6e3;
+	--section-background: #eee8d5;
+	--accent-color: #2aa198;
+	--content-text-color: #657b83;
+	--heading-text-color: #586e75;
+	--understated-text-color: #93a1a1;
+	--bright-text-color: #2aa198;
+	--focused-text-color: #dc322f;
+	/* */
+
+	/* greyscale
+	--background: #f0f0f0;
+	--section-background: #e0e0e0;
+	--accent-color: #666;
+	--content-text-color: #737373;
+	--heading-text-color: #666;
+	--understated-text-color: #999;
+	--bright-text-color: #666;
+	--focused-text-color: #858585;
+  /* */
+
+	/* Blue */
+	--background: #DBE9EE;
+	--section-background: #C0D6DF;
+	--accent-color: #4A6FA5;
+	--content-text-color: #4F6D7A;
+	--heading-text-color: #2B7A78;
+	--understated-text-color: #5d8798;
+	--bright-text-color: #166088;
+	--focused-text-color: #4A6FA5;
+}
 /*
 
    RESET
@@ -58,8 +93,8 @@ table {
 /* Global Styles */
 
 body {
-  background-color: #fdf6e3;
-	color: #657b83;
+  background-color: var(--background);
+	color: var(--content-text-color);
   font-family: 'Crimson Text', serif;
   font-size: 20px;
 	font-weight: 400;
@@ -81,7 +116,7 @@ h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-weight: 500;
   line-height: 1.2;
-	color: #586e75;
+	color: var(--heading-text-color);
 }
 
 h1 {
@@ -100,19 +135,19 @@ h4 {font-size: 1.067em;}
 small, .font_small, h5, h6 {
 	font-size: 0.937em;
 	font-style: italic;
-	color: #93a1a1;
+	color: var(--understated-text-color);
 }
 
 a {
-	color: #2aa198;
+	color: var(--bright-text-color);
 }
 
 a:visited {
-	color: #2aa198;
+	color: var(--bright-text-color);
 }
 
 a:hover {
-	color: #dc322f;
+	color: var(--focused-text-color);
 }
 
 pre, code {
@@ -141,9 +176,9 @@ blockquote {
 	padding: 1rem;
 	font-size: .878em;
 	font-style: italic;
-	background: #eee8d5;
-	border-left: 1px solid #2aa198;
-	border-right: 1px solid #2aa198;
+	background: var(--section-background);
+	border-left: 1px solid var(--accent-color);
+	border-right: 1px solid var(--accent-color);
 	width: 80%;
 	margin: 0 auto 1.3rem auto;
 }
@@ -168,10 +203,10 @@ img {
 	float: left;
 	margin: 0 2rem 1.3rem 0;
 	padding: 1rem;
-  background: #eee8d5;
+  background: var(--section-background);
 	font-size: 6.7em;
 	font-family: 'Playfair Display', serif;
-	color: #657b83;
+	color: var(--content-text-color);
 }
 
 .home-content {
@@ -185,7 +220,7 @@ img {
 }
 
 #signature a {
-	color: #93a1a1;
+	color: var(--understated-text-color);
 }
 
 .home-link {
