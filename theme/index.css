@@ -3,29 +3,6 @@
 
 /* variables */
 html {
-	/* Solarized Light
-
-	--background: #fdf6e3;
-	--section-background: #eee8d5;
-	--accent-color: #2aa198;
-	--content-text-color: #657b83;
-	--heading-text-color: #586e75;
-	--understated-text-color: #93a1a1;
-	--bright-text-color: #2aa198;
-	--focused-text-color: #dc322f;
-	/* */
-
-	/* greyscale
-	--background: #f0f0f0;
-	--section-background: #e0e0e0;
-	--accent-color: #666;
-	--content-text-color: #737373;
-	--heading-text-color: #666;
-	--understated-text-color: #999;
-	--bright-text-color: #666;
-	--focused-text-color: #858585;
-  /* */
-
 	/* Blue */
 	--background: #DBE9EE;
 	--section-background: #C0D6DF;
@@ -36,6 +13,7 @@ html {
 	--bright-text-color: #166088;
 	--focused-text-color: #4A6FA5;
 }
+
 /*
 
    RESET
