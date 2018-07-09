@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Playfair+Display:700|Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://highlightjs.org/static/demo/styles/mono-blue.css');
 
 /* variables */
 html {
 	/* Blue */
-	--background: #DBE9EE;
-	--section-background: #C0D6DF;
-	--accent-color: #4A6FA5;
-	--content-text-color: #4F6D7A;
-	--heading-text-color: #2B7A78;
-	--understated-text-color: #5d8798;
-	--bright-text-color: #166088;
-	--focused-text-color: #4A6FA5;
+	--background: white; /* #DBE9EE; */
+	--section-background: #eee; /* #C0D6DF; */
+	--accent-color: #eee; /* #4A6FA5; */
+	--content-text-color: rgba(0, 0, 0, 0.9); /* #4F6D7A; */
+	--heading-text-color: rgba(0, 0, 0, 0.9); /* #2B7A78; */
+	--understated-text-color: rgba(0, 0, 0, 0.5); /* #5d8798; */
+	--bright-text-color: rgba(0, 0, 0, 1); /* #166088; */
+	--focused-text-color: rgba(0, 0, 0, 1); /* #4A6FA5; */
+	--body-font: 'Roboto Slab', serif;
+	--text-indent: 2rem;
 }
 
 /*
@@ -70,11 +72,16 @@ table {
 
 /* Global Styles */
 
+::selection {
+  text-shadow: none !important;
+  background: rgba(255, 230, 100, 0.5);
+}
+
 body {
   background-color: var(--background);
 	color: var(--content-text-color);
-  font-family: 'Crimson Text', serif;
-  font-size: 20px;
+	font-family: var(--body-font);
+  font-size: 14px;
 	font-weight: 400;
 	line-height: 1.45;
 	padding: 10vh 1rem;
@@ -85,16 +92,19 @@ body {
 	margin: 0 auto;
 }
 
-p {margin-bottom: 1.3em;}
+p {margin-bottom: 0; text-indent: var(--text-indent);}
+h1+p, h2+p, h3+p, h3+p, h4+p, h5+p, h6+p, hr+p, blockquote+p, br+p {text-indent: 0;}
+h1+p strong, h2+p strong, h3+p strong, h3+p strong, h4+p strong, h5+p strong, h6+p strong, hr+p strong, blockquote+p strong, br+p strong {margin-left: var(--text-indent);}
 
 strong {font-weight: bold;}
 em {font-style: italic;}
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
-  font-weight: 500;
+  font-weight: normal;
   line-height: 1.2;
 	color: var(--heading-text-color);
+	/*font-variant: small-caps;*/
 }
 
 h1 {
@@ -175,6 +185,10 @@ img {
 	display: block;
 }
 
+hr {
+	margin: 2rem 0;
+}
+
 .home-title {
 	width: 100%;
 	box-sizing: border-box;
@@ -183,12 +197,16 @@ img {
 	padding: 1rem;
   background: var(--section-background);
 	font-size: 6.7em;
-	font-family: 'Playfair Display', serif;
+	font-family: var(--body-font);
 	color: var(--content-text-color);
 }
 
 .home-content {
-	font-size: 1.467rem;
+	font-size: 16px;/*1.467rem;*/
+}
+
+.home-content p:first-of-type {
+	text-indent: 0;
 }
 
 #signature {
@@ -215,7 +233,7 @@ img {
 
 @media (max-width: 600px) {
 	body {
-		font-size: 20px;
+		font-size: 14px;
 		padding: 1rem;
 	}
 
@@ -223,7 +241,7 @@ img {
 
 @media print {
 	body {
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.home-link, .essays-list, .essays-list-title {
 		display: none;
