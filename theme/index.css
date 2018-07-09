@@ -5,8 +5,8 @@
 html {
 	/* Blue */
 	--background: white; /* #DBE9EE; */
-	--section-background: #eee; /* #C0D6DF; */
-	--accent-color: #eee; /* #4A6FA5; */
+	--section-background: #efefef; /* #C0D6DF; */
+	--accent-color: #e1e1e1; /* #4A6FA5; */
 	--content-text-color: rgba(0, 0, 0, 0.9); /* #4F6D7A; */
 	--heading-text-color: rgba(0, 0, 0, 0.9); /* #2B7A78; */
 	--understated-text-color: rgba(0, 0, 0, 0.5); /* #5d8798; */
@@ -108,7 +108,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  margin-top: 0;
+  margin: 0;
   font-size: 1.296em;
 	font-weight: bold;
 	font-style: normal;
@@ -189,24 +189,13 @@ hr {
 	margin: 2rem 0;
 }
 
-.home-title {
-	width: 100%;
-	box-sizing: border-box;
-	float: left;
-	margin: 0 2rem 1.3rem 0;
-	padding: 1rem;
-  background: var(--section-background);
-	font-size: 6.7em;
-	font-family: var(--body-font);
-	color: var(--content-text-color);
-}
-
 .home-content {
-	font-size: 16px;/*1.467rem;*/
+	font-size: 1rem;/*1.467rem;*/
 }
 
 .home-content p:first-of-type {
 	text-indent: 0;
+	font-size: 1.6rem;
 }
 
 #signature {
@@ -233,7 +222,7 @@ hr {
 
 @media (max-width: 600px) {
 	body {
-		font-size: 14px;
+		font-size: 20px;
 		padding: 1rem;
 	}
 
