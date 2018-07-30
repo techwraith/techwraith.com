@@ -202,6 +202,14 @@ hr {
 	font-size: 1.6rem;
 }
 
+.home-content p:first-of-type a {
+	text-decoration: none;
+}
+
+.home-content p:first-of-type a:hover {
+	border-bottom: .2rem dotted;
+}
+
 #signature {
 	margin: 1rem 0;
 	text-align: right;
