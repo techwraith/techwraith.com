@@ -77,18 +77,21 @@ table {
   background: rgba(255, 230, 100, 0.5);
 }
 
+body, html {
+	font-size: 20px;
+}
+
 body {
   background-color: var(--background);
 	color: var(--content-text-color);
 	font-family: var(--body-font);
-  font-size: 20px;
 	font-weight: 400;
 	line-height: 1.45;
 	padding: 10vh 1rem;
 }
 
 .content {
-	max-width: 575px;
+	max-width: 30rem;
 	margin: 0 auto;
 }
 
@@ -100,9 +103,10 @@ strong {font-weight: bold;}
 em {font-style: italic;}
 
 h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
+  margin: 2rem 0 0.5rem;
   font-weight: normal;
   line-height: 1.2;
+	font-weight: bold;
 	color: var(--heading-text-color);
 	/*font-variant: small-caps;*/
 }
@@ -114,14 +118,14 @@ h1 {
 	font-style: normal;
 }
 
-h2 {font-size: 1.215em;}
+h2 {font-size: 1.215rem;}
 
-h3 {font-size: 1.138em;}
+h3 {font-size: 1.138rem;}
 
-h4 {font-size: 1.067em;}
+h4 {font-size: 1.067rem;}
 
 small, .font_small, h5, h6 {
-	font-size: 0.937em;
+	font-size: 0.937rem;
 	font-style: italic;
 	color: var(--understated-text-color);
 }
@@ -140,14 +144,14 @@ a:hover {
 
 pre, code {
 	white-space: pre;
-	margin: 0.5em 0 1.414em;
-	font-size: .878em;
+	margin: 0.5rem 0 2rem;
+	font-size: .878rem;
 	font-family: 'Source Code Pro', monospace;
 }
 
 ul, ol {
 	list-style-position: outside;
-  margin-bottom: 1.45em;
+  margin-bottom: 1.45rem;
 }
 
 ul {
@@ -162,7 +166,7 @@ ol {
 
 blockquote {
 	padding: 1rem;
-	font-size: .878em;
+	font-size: .878rem;
 	font-style: italic;
 	background: var(--section-background);
 	border-left: 1px solid var(--accent-color);
@@ -190,7 +194,7 @@ hr {
 }
 
 .home-content {
-	font-size: 1rem;/*1.467rem;*/
+	font-size: 1rem;
 }
 
 .home-content p:first-of-type {
@@ -217,19 +221,22 @@ hr {
 
 .essay-title {
 	margin-top: 4.139rem;
-	font-size: 2.0519em;
+	font-size: 2rem;
 }
 
 @media (max-width: 600px) {
+	body, html {
+		font-size: 16px;
+	}
+
 	body {
-		font-size: 20px;
 		padding: 1rem;
 	}
 
 }
 
 @media print {
-	body {
+	body, html {
 		font-size: 16px;
 	}
 	.home-link, .essays-list, .essays-list-title {
