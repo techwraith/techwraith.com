@@ -1,12 +1,12 @@
 Functional and cross-functional teams- both of these organization styles have their benefits and drawbacks. Lets explore some of the attributes of these organizations and see what we can take from each style. The goal is to create something well suited to a fast growing product and engineering organization.
 
-## Functional
+## Functional Teams
 
 In this kind of organization, teams form around the function performed by the members of that team. A typical product development company who organizes themselves this way might have a front end team, a back end team, an infrastructure team, a product management team, and a design team. This system works well for keeping the best practices of each function aligned, but it doesn't work for keeping different functions aligned.
 
 Eventually, each functional group will aim for slightly different targets and they'll end up fighting each other to solve the same problems or end up disagreeing on what the problem is in the first place. This kind of organization favors waterfall style development cycles, and so generally has longer development cycles than cross-functional organizations. Functional product engineering organizations put functional excellence above iteration speed.
 
-## Cross-Functional
+## Cross-Functional Teams
 
 In this kind of organization, teams form around business goals. As an example, a ride-share company might have a driver team, a maps team, a payments team, a growth team, and a compliance team. Each of these teams would have members who perform the various functions required. The maps team might have front end engineers, designers, product managers, QA engineers, and data scientists. This system works well for iterating on business goals, but can leave a product feeling disjointed and stitched together.
 
@@ -20,7 +20,7 @@ While the functional groups define the environment in which the work gets done, 
 
 Organizing teams this way allows your organization to focus on what is important regardless of your functional team structure, allows your team members flexibility in the work that they do, and allows for getting many projects done in parallel.
 
-### A Couple drawbacks
+### A Few Drawbacks
 
 Because projects need to be prioritized in advance, **it can be easy to fall into mini-waterfall with this style**. Product plans a project, hands it to a designer to make the designs, then they collaborate with engineers to get it shipped. To combat this, build in time between projects to allow the engineers to collaborate with the product people on project planning. Better yet, build a planning phase into your projects themselves and when you're prioritizing, only define the goal, not how you'll get there.
 
