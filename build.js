@@ -34,15 +34,27 @@ const readfile = (path) => {
 }
 const appendSiteTitle = (str) => str + ' – ' + pkg.name
 const render = (path) => md.render(readfile(path))
+const parseEssayDir = (dir) => {
+  return fs.readdirSync(dir).map((filename) => {
+    const filePath = dir + '/' + filename
+    if (fs.statSync(filePath).isFile()) {
+      return {
+        title: title(removeMD(filename)),
+        slug: removeMD(filename),
+        body: render(filePath),
+        category: null
+      }
+    } else if (fs.statSync(filePath).isDirectory()) {
+      return {
+        category: filePath.split('/')[-1],
+        essays: parseEssayDir(filePath)
+      }
+    }
+  })
+}
 
 /* content */
-const essays = fs.readdirSync('./essays').map((filename) => {
-  return {
-    title: title(removeMD(filename)),
-    slug: removeMD(filename),
-    body: render('./essays/' + filename)
-  }
-})
+const essays = parseEssayDir('./essays')
 const intro = {
   body: render('./intro.md'),
   essays: essays
@@ -57,16 +69,23 @@ const templates = {
 }
 
 /* renders */
-const essayPages = essays.map((essay) => {
-  return {
-    html: templates.layout({
-      body: templates.essay(essay),
-      title: appendSiteTitle(essay.title),
-      essays: essays
-    }),
-    ...essay
-  }
-})
+const renderEssays = (e) => {
+  return e.map((essay) => {
+    if (essay.category) {
+      return renderEssays(essay.essays)
+    } else {
+      return {
+        html: templates.layout({
+          body: templates.essay(essay),
+          title: appendSiteTitle(essay.title),
+          essays: essays
+        }),
+        ...essay
+      }
+    }
+  })
+}
+const essayPages = renderEssays(essays)
 const homepage = templates.layout({
   body: templates.home(intro),
   title: appendSiteTitle('Welcome'),
@@ -107,6 +126,7 @@ fs.writeFileSync(buildPath + '/404.html', fourohfour)
 
 console.log('  writing essay pages:')
 essayPages.forEach((page, i) => {
+  // render essay categories too
   const dirname = page.slug
   console.log('  ' + (i + 1) + '.', dirname)
   fs.mkdirSync(buildPath + '/' + dirname)
