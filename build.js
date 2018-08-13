@@ -53,7 +53,8 @@ const templates = {
   essay: hbs(readfile('./theme/essay.hbs')),
   style: readfile('./theme/index.css'),
   js: readfile('./theme/index.js'),
-  fourohfour: render('./theme/404.hbs')
+  fourohfour: render('./theme/404.hbs'),
+  favicon: readfile('./theme/favicon.ico')
 }
 
 /* renders */
@@ -112,4 +113,8 @@ essayPages.forEach((page, i) => {
   fs.mkdirSync(buildPath + '/' + dirname)
   fs.writeFileSync(buildPath + '/' + dirname + '/index.html', page.html)
 })
+
+console.log('  writing favicon.ico')
+fs.writeFileSync(buildPath + '/favicon.ico', templates.favicon)
+
 console.log('\nfinished in', Date.now() - startTime, 'ms')
