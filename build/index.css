@@ -14,6 +14,7 @@ html {
 	--focused-text-color: rgba(0, 0, 0, 1); /* #4A6FA5; */
 	--body-font: 'Crimson Text', serif;
 	--text-indent: 0rem;
+	--font-base-size: 22px;
 }
 
 /*
@@ -78,7 +79,7 @@ table {
 }
 
 body, html {
-	font-size: 20px;
+	font-size: var(--font-base-size);
 }
 
 body {
@@ -86,7 +87,7 @@ body {
 	color: var(--content-text-color);
 	font-family: var(--body-font);
 	font-weight: 400;
-	line-height: 1.45;
+	line-height: 1.3;
 	padding: 10vh 1rem;
 }
 
@@ -103,29 +104,28 @@ strong {font-weight: bold;}
 em {font-style: italic;}
 
 h1, h2, h3, h4 {
-  margin: 2rem 0 0.5rem;
   font-weight: normal;
-  line-height: 1.2;
 	font-weight: bold;
+	margin-bottom: 1.3rem;
 	color: var(--heading-text-color);
 	/*font-variant: small-caps;*/
 }
 
 h1 {
   margin: 0;
-  font-size: 1.296em;
+  font-size: 1rem;
 	font-weight: bold;
 	font-style: normal;
 }
 
-h2 {font-size: 1.215rem;}
+h2 {font-size: 1rem;}
 
-h3 {font-size: 1.138rem;}
+h3 {font-size: 1rem;}
 
-h4 {font-size: 1.067rem;}
+h4 {font-size: 1rem;}
 
 small, .font_small, h5, h6 {
-	font-size: 0.937rem;
+	font-size: 0.75rem;
 	font-style: italic;
 	color: var(--understated-text-color);
 }
@@ -145,28 +145,28 @@ a:hover {
 pre, code {
 	white-space: pre;
 	margin: 0.5rem 0 2rem;
-	font-size: .878rem;
+	font-size: .75rem;
 	font-family: 'Source Code Pro', monospace;
 }
 
 ul, ol {
 	list-style-position: outside;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1.3rem;
 }
 
 ul {
 	list-style-type: square;
-	padding-left: 1.296rem;
+	padding-left: 1.3rem;
 }
 
 ol {
 	list-style-type: decimal-leading-zero;
-	padding-left: 1.6rem;
+	padding-left: 1.3rem;
 }
 
 blockquote {
 	padding: 1rem;
-	font-size: .878rem;
+	font-size: .75rem;
 	font-style: italic;
 	background: var(--section-background);
 	border-left: 1px solid var(--accent-color);
@@ -199,7 +199,6 @@ hr {
 
 .home-content p:first-of-type {
 	text-indent: 0;
-	font-size: 1.6rem;
 }
 
 .home-content p:first-of-type a {
@@ -227,25 +226,30 @@ hr {
 	left: 1rem;
 }
 
-.essay-title {
-	margin-top: 4.139rem;
+.essay-title, .home-content p:first-of-type {
+	margin-top: 5rem;
 	font-size: 2rem;
 }
 
 @media (max-width: 600px) {
 	body, html {
-		font-size: 16px;
+		font-size: calc(var(--font-base-size) - 2px);
 	}
 
 	body {
 		padding: 1rem;
 	}
 
+	.essay-title, .home-content p:first-of-type {
+		margin-top: 8rem;
+		font-size: 1.3rem;
+	}
+
 }
 
 @media print {
 	body, html {
-		font-size: 16px;
+		font-size: var(--font-base-size);
 	}
 	.home-link, .essays-list, .essays-list-title {
 		display: none;
