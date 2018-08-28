@@ -144,9 +144,15 @@ a:hover {
 
 pre, code {
 	white-space: pre;
-	margin: 0.5rem 0 2rem;
 	font-size: .75rem;
 	font-family: 'Source Code Pro', monospace;
+}
+
+pre {
+	display: block;
+	margin: 1.3rem 0;
+	padding-left: 1rem !important;
+	border-left: 1px dotted var(--understated-text-color);
 }
 
 ul, ol {
