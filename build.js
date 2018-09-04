@@ -78,6 +78,8 @@ const renderEssays = (e) => {
         html: templates.layout({
           body: templates.essay(essay),
           title: appendSiteTitle(essay.title),
+          contentTitle: essay.title,
+          slug: essay.slug,
           essays: essays
         }),
         ...essay
@@ -132,4 +134,5 @@ essayPages.forEach((page, i) => {
   fs.mkdirSync(buildPath + '/' + dirname)
   fs.writeFileSync(buildPath + '/' + dirname + '/index.html', page.html)
 })
+
 console.log('\nfinished in', Date.now() - startTime, 'ms')
