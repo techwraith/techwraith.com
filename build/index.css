@@ -215,6 +215,10 @@ hr {
 	justify-content: space-between;
 }
 
+.site-header a {
+	text-decoration: none;
+}
+
 .site-header .right img {
 	height: 1rem;
 }
@@ -243,10 +247,6 @@ hr {
 
 #signature a {
 	color: var(--understated-text-color);
-}
-
-.home-link {
-	text-decoration: none;
 }
 
 .essay-title, .home-content p:first-of-type {

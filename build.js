@@ -62,6 +62,8 @@ const essayPages = essays.map((essay) => {
     html: templates.layout({
       body: templates.essay(essay),
       title: appendSiteTitle(essay.title),
+      contentTitle: essay.title,
+      slug: essay.slug,
       essays: essays
     }),
     ...essay
