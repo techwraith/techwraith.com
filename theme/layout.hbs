@@ -18,14 +18,26 @@
       <small>– <a href="https://twitter.com/techwraith">@techwraith</a></small>
     </div>
     <h2 class="essays-list-title">Essays</h2>
-    <ol class="essays-list">
+    <ul class="essays-list">
       // list categories here tood
       {{#essays}}
+        {{#if essays}}
+        <li>
+          <ul>
+            {{#essays}}
+            <li>
+              <a href="/{{slug}}/">{{title}}</a>
+            </li>
+            {{/essays}}
+          </ul>
+        </li>
+        {{#else}}
         <li>
           <a href="/{{slug}}/">{{title}}</a>
         </li>
+        {{/if}}
       {{/essays}}
-    </ol>
+    </ul>
   </div>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

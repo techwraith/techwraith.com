@@ -34,7 +34,8 @@ const readfile = (path) => {
 }
 const appendSiteTitle = (str) => str + ' – ' + pkg.name
 const render = (path) => md.render(readfile(path))
-const parseEssayDir = (dir) => {
+const parseEssayDir = (dir, category) => {
+  if (!category) category = null
   return fs.readdirSync(dir).map((filename) => {
     const filePath = dir + '/' + filename
     if (fs.statSync(filePath).isFile()) {
@@ -42,12 +43,12 @@ const parseEssayDir = (dir) => {
         title: title(removeMD(filename)),
         slug: removeMD(filename),
         body: render(filePath),
-        category: null
+        category: category
       }
     } else if (fs.statSync(filePath).isDirectory()) {
       return {
-        category: filePath.split('/')[-1],
-        essays: parseEssayDir(filePath)
+        category: filePath.split('/')[2],
+        essays: parseEssayDir(filePath, filePath.split('/')[2])
       }
     }
   })
@@ -71,7 +72,7 @@ const templates = {
 /* renders */
 const renderEssays = (e) => {
   return e.map((essay) => {
-    if (essay.category) {
+    if (essay.essays) {
       return renderEssays(essay.essays)
     } else {
       return {
@@ -88,6 +89,7 @@ const renderEssays = (e) => {
   })
 }
 const essayPages = renderEssays(essays)
+console.log(essayPages)
 const homepage = templates.layout({
   body: templates.home(intro),
   title: appendSiteTitle('Welcome'),
