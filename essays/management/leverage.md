@@ -1,6 +1,8 @@
-I've been thinking a lot about how I make decisions. I run a fast growing team that is iterating on a product that's gaining users faster than you can count. Solid decision making skills are handy. Today I want to talk about the framework that I use the most: easy and effective _leverage_.
+<small>Notice some rough edges in this essay? It's a rough draft, but I'm open by default. Expect to see edits soon.</small>
 
-> **Leverage:** power or ability to act or to influence people,events, decisions, etc.;
+I've been thinking a lot about how I make decisions. Our team is quickly growing while iterating on a product that's gaining users faster than you can count. Solid decision making skills are handy. Today I want to talk about the framework that I use the most: easy and effective _leverage_.
+
+> **Leverage:** power or ability to act or to influence people, events, decisions, etc.;
 
 I'm often approached by people on other teams asking about how we can make some idea happen. We do a lot with only a few people at work. It's important to find a simple and easy solution to most of these one off requests. Difficulty can't be our only metric for a match though, we also need our solution to be effective. I find that for most problems, there is some distinguishable bar for effectiveness. Once a solution passes that bar, finding a more effective solution isn't worth it.
 
@@ -17,5 +19,3 @@ Once I've got a list of viable options, I need to choose which one to move forwa
 For each of the solutions that are both easy and effective, I list out the second and third order effects that this solution will have. What does it stop me from doing in the future? What opportunities does it open up?
 
 I'm looking for a solution that is both easy and effective, that provides me with the most opportunity, and the least restrictions in the future. If I find this solution, I've found a solution with high leverage.
-
-<small>Notice some rough edges in this essay? It's a rough draft, but I'm open by default. Expect to see edits soon.</small>
