@@ -35,7 +35,7 @@ const readfile = (path) => {
 const appendSiteTitle = (str) => str + ' – ' + pkg.name
 const render = (path) => md.render(readfile(path))
 const parseEssayDir = (dir, category) => {
-  if (!category) category = null
+  if (!category) category = 'miscellaneous'
   return fs.readdirSync(dir).map((filename) => {
     const filePath = dir + '/' + filename
     if (fs.statSync(filePath).isFile()) {
@@ -48,6 +48,7 @@ const parseEssayDir = (dir, category) => {
     } else if (fs.statSync(filePath).isDirectory()) {
       return {
         category: filePath.split('/')[2],
+        categoryTitle: title(filePath.split('/')[2]),
         essays: parseEssayDir(filePath, filePath.split('/')[2])
       }
     }
@@ -89,7 +90,6 @@ const renderEssays = (e) => {
   })
 }
 const essayPages = renderEssays(essays)
-console.log(essayPages)
 const homepage = templates.layout({
   body: templates.home(intro),
   title: appendSiteTitle('Welcome'),
@@ -129,12 +129,17 @@ console.log('  writing 404')
 fs.writeFileSync(buildPath + '/404.html', fourohfour)
 
 console.log('  writing essay pages:')
-essayPages.forEach((page, i) => {
+const writePage = (page, i) => {
   // render essay categories too
-  const dirname = page.slug
-  console.log('  ' + (i + 1) + '.', dirname)
-  fs.mkdirSync(buildPath + '/' + dirname)
-  fs.writeFileSync(buildPath + '/' + dirname + '/index.html', page.html)
-})
+  if (page.length) {
+    page.forEach(writePage)
+  } else {
+    const dirname = page.slug
+    console.log('  ' + (i + 1) + '.', dirname)
+    fs.mkdirSync(buildPath + '/' + dirname)
+    fs.writeFileSync(buildPath + '/' + dirname + '/index.html', page.html)
+  }
+}
+essayPages.forEach(writePage)
 
 console.log('\nfinished in', Date.now() - startTime, 'ms')

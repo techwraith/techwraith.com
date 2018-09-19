@@ -249,6 +249,17 @@ hr {
 	color: var(--understated-text-color);
 }
 
+.category-title {
+	list-style: none;
+	margin: 1.3rem 0 1.3rem -1.3rem;
+}
+
+.category-title h3 {
+	margin-bottom: 0.3rem;
+	color: var(--understated-text-color);
+	font-style: italic;
+}
+
 .essay-title, .home-content p:first-of-type {
 	margin-top: 5rem;
 	font-size: 2rem;

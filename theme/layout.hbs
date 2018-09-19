@@ -19,10 +19,9 @@
     </div>
     <h2 class="essays-list-title">Essays</h2>
     <ul class="essays-list">
-      // list categories here tood
       {{#essays}}
         {{#if essays}}
-        <li>
+        <li class="category-title"><h3>{{categoryTitle}}</h3>
           <ul>
             {{#essays}}
             <li>
@@ -31,7 +30,7 @@
             {{/essays}}
           </ul>
         </li>
-        {{#else}}
+        {{else}}
         <li>
           <a href="/{{slug}}/">{{title}}</a>
         </li>
