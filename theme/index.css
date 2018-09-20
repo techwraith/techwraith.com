@@ -260,9 +260,17 @@ hr {
 	font-style: italic;
 }
 
-.essay-title, .home-content p:first-of-type {
-	margin-top: 5rem;
+.essay-title h1, .home-content p:first-of-type {
 	font-size: 2rem;
+}
+
+.essay-title h2 {
+	color: var(--understated-text-color);
+	margin-bottom: .65rem;
+}
+
+.home-content p:first-of-type, .essay-title {
+	margin-top: 5rem;
 }
 
 @media (max-width: 600px) {

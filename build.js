@@ -43,7 +43,8 @@ const parseEssayDir = (dir, category) => {
         title: title(removeMD(filename)),
         slug: removeMD(filename),
         body: render(filePath),
-        category: category
+        category: category,
+        categoryTitle: title(category)
       }
     } else if (fs.statSync(filePath).isDirectory()) {
       return {
