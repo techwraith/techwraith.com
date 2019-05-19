@@ -5,10 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run build && npm run start-server",
-    "build": "node build",
-    "start-server": "node server",
-    "deploy": "npm run build && surge ./build/ techwraith.com"
+    "now-dev": "npm run now-build && node server",
+    "now-build": "node build"
   },
   "repository": {
     "type": "git",
