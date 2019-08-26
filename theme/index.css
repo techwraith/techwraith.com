@@ -93,7 +93,6 @@ body {
 
 .content {
 	max-width: 30rem;
-	margin: 0 auto;
 }
 
 p {margin-bottom: 1.3rem; text-indent: var(--text-indent);}
@@ -200,7 +199,7 @@ hr {
 }
 
 .site-header {
-	background: rgba(255, 230, 100, 0.5);
+	background: white;
 	position: absolute;
 	top: 0rem;
 	left: 0rem;
