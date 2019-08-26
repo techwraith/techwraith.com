@@ -93,6 +93,7 @@ body {
 
 .content {
 	max-width: 30rem;
+	margin-left: 50vw;
 }
 
 p {margin-bottom: 1.3rem; text-indent: var(--text-indent);}
