@@ -1,4 +1,4 @@
-Functional and cross-functional teams- both of these organization styles have their benefits and drawbacks. Lets explore some of the attributes of these organizations and see what we can take from each style. The goal is to create something well suited to a fast growing product and engineering organization.
+Functional and cross-functional teams- both of these organization styles have their benefits and drawbacks. Lets explore some of the attributes of these organizations and see what we can take from each style. The goal is to create something well suited to a fast growing product and engineering organization that already has a solid technical foundation to build upon.
 
 ## Functional Teams
 
