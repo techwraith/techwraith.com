@@ -1,4 +1,4 @@
-_**Hi, I'm Dan.**_ I build [systems](https://www.goodreads.com/book/show/3828902-thinking-in-systems) for people and computers.
+_Hi, I'm Dan._ I build [systems](https://www.goodreads.com/book/show/3828902-thinking-in-systems) for people and computers.
 
 I lead the engineering team at [Eaze](https://www.eaze.com). My goal there is to build a team that is compassionate, collaborative, autonomous, and eager to solve problems for real people. Teams with these qualities are effective at building and operating high performance businesses.
 
