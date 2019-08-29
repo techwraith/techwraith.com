@@ -15,7 +15,7 @@ html {
 	--display-font: 'Playfair Display', serif;
 	--body-font: 'Crimson Pro', serif;
 	--text-indent: 0rem;
-	--font-base-size: 22px;
+	--font-base-size: 20px;
 	--base-line-height: 1.5rem;
 }
 
@@ -233,10 +233,6 @@ hr {
 	text-decoration: none;
 }
 
-.site-header .right img {
-	height: 1rem;
-}
-
 .home-content {
 	font-size: 1rem;
 }
@@ -290,32 +286,17 @@ hr {
 }
 
 @media (max-width: 600px) {
-	body, html {
-		font-size: calc(var(--font-base-size) * .75px);
-	}
-
 	.content {
 		padding: 0 1rem;
 	}
 
-	.site-header { padding-left: 1rem; }
-
-	.site-header .site-title {
-		font-size: var(--font-base-size);
-		margin-bottom: 0;
+	.site-header {
+		padding-left: 1rem;
 	}
-
-	.essay-title, .home-content p:first-of-type {
-		font-size: 1.3rem;
-	}
-
 }
 
 @media print {
-	body, html {
-		font-size: var(--font-base-size);
-	}
-	.home-link, .essays-list, .essays-list-title {
+	.site-header, .home-link, .essays-list, .essays-list-title {
 		display: none;
 	}
 	blockquote {
