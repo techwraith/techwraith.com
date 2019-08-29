@@ -108,23 +108,9 @@ em {font-style: italic;}
 h1, h2, h3, h4 {
   font-weight: normal;
 	font-weight: bold;
-	margin-bottom: var(--base-line-height);
 	color: var(--heading-text-color);
-	/*font-variant: small-caps;*/
-}
-
-h1 {
-  margin: 0;
   font-size: 1rem;
-	font-weight: bold;
-	font-style: normal;
 }
-
-h2 {font-size: 1rem;}
-
-h3 {font-size: 1rem;}
-
-h4 {font-size: 1rem;}
 
 small, .font_small, h5, h6 {
 	font-size: 0.75rem;
