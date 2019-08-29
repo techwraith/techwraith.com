@@ -184,7 +184,7 @@ img {
 }
 
 hr {
-	margin: calc(var(--base-line-height)*2) 0;
+	margin: var(--base-line-height) 0;
 }
 
 .site-header {
