@@ -22,23 +22,23 @@ Organizing teams this way allows your organization to focus on what is important
 
 ### A Few Drawbacks
 
-Because projects need to be prioritized in advance, **it can be easy to fall into mini-waterfall with this style**. Product plans a project, hands it to a designer to make the designs, then they collaborate with engineers to get it shipped. To combat this, build in time between projects to allow the engineers to collaborate with the product people on project planning. Better yet, build a planning phase into your projects themselves and when you're prioritizing, only define the goal, not how you'll get there.
+Because projects need to be prioritized in advance, _it can be easy to fall into mini-waterfall with this style_. Product plans a project, hands it to a designer to make the designs, then they collaborate with engineers to get it shipped. To combat this, build in time between projects to allow the engineers to collaborate with the product people on project planning. Better yet, build a planning phase into your projects themselves and when you're prioritizing, only define the goal, not how you'll get there.
 
-**Not all work is project based**. There will be times when you just need part of the team to focus on bugs or a quick improvement. The process of spinning up a new project team for these things is likely too much. Build in a traditional sprint-like process for people to use between projects to tackle these tasks. If you find that isn't enough to get through your backlog, consider committing to a permanent team (who's members rotate in and out) to this cause.
+_Not all work is project based_. There will be times when you just need part of the team to focus on bugs or a quick improvement. The process of spinning up a new project team for these things is likely too much. Build in a traditional sprint-like process for people to use between projects to tackle these tasks. If you find that isn't enough to get through your backlog, consider committing to a permanent team (who's members rotate in and out) to this cause.
 
-**It can be difficult for project team members to build up business context.** Without business context engineers won't always make the right tradeoffs, but getting that context for ephemeral projects can be tough. Product Managers should take extra care to make sure that the team understands why this project is important for the business and that each project team member understands how they're contributing to that business goal.
+_It can be difficult for project team members to build up business context_. Without business context engineers won't always make the right tradeoffs, but getting that context for ephemeral projects can be tough. Product Managers should take extra care to make sure that the team understands why this project is important for the business and that each project team member understands how they're contributing to that business goal.
 
 ### Some Practical Guidelines
 
-**Scope your projects down to what the team can complete in 2 - 12 weeks**. Anything shorter than that is likely best done by a single engineer between projects. Attempt something longer than that and what you end up with is less likely to be what you need.
+_Scope your projects down to what the team can complete in 2 - 12 weeks_. Anything shorter than that is likely best done by a single engineer between projects. Attempt something longer than that and what you end up with is less likely to be what you need.
 
-**Don’t keep team members in the same part of the product**. The benefit here is that you get to spread your team’s knowledge across the entire team instead of hoarding your knowledge in a select few experts. Lower your [bus factor](https://en.wikipedia.org/wiki/Bus_factor).
+_Don’t keep team members in the same part of the product_. The benefit here is that you get to spread your team’s knowledge across the entire team instead of hoarding your knowledge in a select few experts. Lower your [bus factor](https://en.wikipedia.org/wiki/Bus_factor).
 
-**Don’t use the same set of people twice**. You want your culture and your process to evolve as organically as possible. By rotating people through many different teams each person gets to bring the things they like from one team to the next. If something worked well on their last project, they’ll bring it to the next.
+_Don’t use the same set of people twice_. You want your culture and your process to evolve as organically as possible. By rotating people through many different teams each person gets to bring the things they like from one team to the next. If something worked well on their last project, they’ll bring it to the next.
 
-**Pair new hires with someone in their function**. Ramping up new employees can be challenging in traditional organizations. There is a lot of context to learn, culture to integrate with, and team practices to master. Put them in a project team with someone they can learn these things from.
+_Pair new hires with someone in their function_. Ramping up new employees can be challenging in traditional organizations. There is a lot of context to learn, culture to integrate with, and team practices to master. Put them in a project team with someone they can learn these things from.
 
-**Rotate people into the Tech Lead role**. Give every team member a chance to show you their technical leadership and people management skills. Any fast growing team is going to need more leaders soon. This is how you can build your leadership bench.
+_Rotate people into the Tech Lead role_. Give every team member a chance to show you their technical leadership and people management skills. Any fast growing team is going to need more leaders soon. This is how you can build your leadership bench.
 
 ---
 
