@@ -9,7 +9,7 @@ const params = {
 liveServer.start(params)
 
 const runBuild = () => {
-  execSync('npm run build')
+  execSync('npm run now-build')
 }
 const watch = (path) => {
   fs.watch(path, {recursive: true}, runBuild)
