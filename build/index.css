@@ -278,6 +278,10 @@ hr {
 	margin-bottom: 0;
 }
 
+.essays-list {
+	padding-left: 0;
+}
+
 @media (max-width: 600px) {
 	.content {
 		padding: 0 1rem;

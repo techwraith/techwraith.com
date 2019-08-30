@@ -68,7 +68,8 @@ const templates = {
   essay: hbs(readfile('./theme/essay.hbs')),
   style: readfile('./theme/index.css'),
   js: readfile('./theme/index.js'),
-  fourohfour: render('./theme/404.hbs')
+  fourohfour: hbs(readfile('./theme/404.hbs')),
+  archive: hbs(readfile('./theme/archive.hbs'))
 }
 
 /* renders */
@@ -97,9 +98,13 @@ const homepage = templates.layout({
   essays: essays
 })
 const fourohfour = templates.layout({
-  body: templates.fourohfour,
+  body: templates.fourohfour({essays: essays}),
   title: appendSiteTitle('four oh four'),
   essays: essays
+})
+const archive = templates.layout({
+  body: templates.archive({essays: essays}),
+  title: appendSiteTitle('The Archives'),
 })
 
 /* ok lets go */
@@ -125,6 +130,10 @@ if (templates.js) {
 
 console.log('  writing homepage')
 fs.writeFileSync(buildPath + '/index.html', homepage)
+
+console.log('  writing archive')
+fs.mkdirSync(buildPath + '/archive')
+fs.writeFileSync(buildPath + '/archive/index.html', archive)
 
 console.log('  writing 404')
 fs.writeFileSync(buildPath + '/404.html', fourohfour)

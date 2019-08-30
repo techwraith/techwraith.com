@@ -1,3 +1,25 @@
 <div class="home-content">
   {{{body}}}
 </div>
+<div id="signature">
+  <small>– <a href="https://twitter.com/techwraith">@techwraith</a></small>
+</div>
+<ul class="essays-list">
+  {{#essays}}
+    {{#if essays}}
+    <li class="category-title"><h3>{{categoryTitle}}</h3>
+      <ul>
+        {{#essays}}
+        <li>
+          <a href="/{{slug}}/">{{title}}</a>
+        </li>
+        {{/essays}}
+      </ul>
+    </li>
+    {{else}}
+    <li>
+      <a href="/{{slug}}/">{{title}}</a>
+    </li>
+    {{/if}}
+  {{/essays}}
+</ul>

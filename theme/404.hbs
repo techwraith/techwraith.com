@@ -1,3 +1,26 @@
 <h1 class="essay-title">Doesn't look like anything to me</h1>
 
 <p>Perhaps you'll find what you're looking for in the list below.</p>
+<div id="signature">
+  <small>– <a href="https://twitter.com/techwraith">@techwraith</a></small>
+</div>
+<h2 class="essays-list-title">Essays</h2>
+<ul class="essays-list">
+  {{#essays}}
+    {{#if essays}}
+    <li class="category-title"><h3>{{categoryTitle}}</h3>
+      <ul>
+        {{#essays}}
+        <li>
+          <a href="/{{slug}}/">{{title}}</a>
+        </li>
+        {{/essays}}
+      </ul>
+    </li>
+    {{else}}
+    <li>
+      <a href="/{{slug}}/">{{title}}</a>
+    </li>
+    {{/if}}
+  {{/essays}}
+</ul>
