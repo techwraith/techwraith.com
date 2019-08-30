@@ -1,4 +1,4 @@
-_Hello there. I'm Dan._
+_Hi. I'm Dan._
 
 I build [systems][1] for teams to help them do their best work.
 
