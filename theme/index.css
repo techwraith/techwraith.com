@@ -226,6 +226,13 @@ hr {
 .home-content p:first-of-type, .home-content p:nth-of-type(2) {
 	text-indent: 0;
 }
+.home-content p:nth-of-type(2) {
+  margin-top: 0;
+}
+
+.home-content p:first-of-type {
+  margin-bottom: 0;
+}
 
 .home-content p:first-of-type a, .home-content p:nth-of-type(2) a {
 	text-decoration: none;
@@ -256,7 +263,7 @@ hr {
 	font-style: italic;
 }
 
-.essay-title, .home-content p:first-of-type, .home-content p:nth-of-type(2) {
+.essay-title, .home-content p:first-of-type {
 	margin-top: var(--base-line-height);
 }
 
