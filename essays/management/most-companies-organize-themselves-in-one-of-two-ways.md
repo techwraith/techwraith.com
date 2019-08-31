@@ -30,15 +30,15 @@ _It can be difficult for project team members to build up business context_. Wit
 
 ### Some Practical Guidelines
 
-_Scope your projects down to what the team can complete in 2 - 12 weeks_. Anything shorter than that is likely best done by a single engineer between projects. Attempt something longer than that and what you end up with is less likely to be what you need.
+**_Scope your projects down to what the team can complete in 2 - 12 weeks_**. Anything shorter than that is likely best done by a single engineer between projects. Attempt something longer than that and what you end up with is less likely to be what you need.
 
-_Don’t keep team members in the same part of the product_. The benefit here is that you get to spread your team’s knowledge across the entire team instead of hoarding your knowledge in a select few experts. Lower your [bus factor](https://en.wikipedia.org/wiki/Bus_factor).
+**_Don’t keep team members in the same part of the product_**. The benefit here is that you get to spread your team’s knowledge across the entire team instead of hoarding your knowledge in a select few experts. Lower your [bus factor](https://en.wikipedia.org/wiki/Bus_factor).
 
-_Don’t use the same set of people twice_. You want your culture and your process to evolve as organically as possible. By rotating people through many different teams each person gets to bring the things they like from one team to the next. If something worked well on their last project, they’ll bring it to the next.
+**_Don’t use the same set of people twice_**. You want your culture and your process to evolve as organically as possible. By rotating people through many different teams each person gets to bring the things they like from one team to the next. If something worked well on their last project, they’ll bring it to the next.
 
-_Pair new hires with someone in their function_. Ramping up new employees can be challenging in traditional organizations. There is a lot of context to learn, culture to integrate with, and team practices to master. Put them in a project team with someone they can learn these things from.
+**_Pair new hires with someone in their function_**. Ramping up new employees can be challenging in traditional organizations. There is a lot of context to learn, culture to integrate with, and team practices to master. Put them in a project team with someone they can learn these things from.
 
-_Rotate people into the Tech Lead role_. Give every team member a chance to show you their technical leadership and people management skills. Any fast growing team is going to need more leaders soon. This is how you can build your leadership bench.
+**_Rotate people into the Tech Lead role_**. Give every team member a chance to show you their technical leadership and people management skills. Any fast growing team is going to need more leaders soon. This is how you can build your leadership bench.
 
 ---
 
