@@ -306,7 +306,7 @@ hr {
 }
 
 @media print {
-	.site-header, .home-link, .essays-list, .essays-list-title {
+	.site-header, .home-link, .essays-list, .essays-list-title, .nav, .copyright {
 		display: none;
 	}
 	blockquote {
