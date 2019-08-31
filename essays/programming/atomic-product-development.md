@@ -53,7 +53,7 @@ It may be best to give an example. Lets create that search form that we were tal
 ```json
 {
   "name": "search-form",
-  "version": "0.0.1"
+  "version": "0.0.1",
   "main": "index.js",
   "style": "index.css",
   "dependencies": [
