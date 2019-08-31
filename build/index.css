@@ -207,15 +207,16 @@ hr {
 	max-width: 30rem;
 }
 
-.site-header .nav {
+.nav {
 	display: flex;
 	justify-content: space-evenly;
 	max-width: 360px;
 	margin: 0 auto;
-	display: none;
+	padding: var(--base-line-height) 0;
+	font-variant: small-caps;
 }
 
-.site-header .nav a {
+.nav a {
 	text-decoration: none;
 }
 
