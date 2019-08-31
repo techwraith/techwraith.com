@@ -105,6 +105,13 @@ h1+p strong, h2+p strong, h3+p strong, h3+p strong, h4+p strong, h5+p strong, h6
 strong {font-weight: bold;}
 em {font-style: italic;}
 
+strong em {
+	font-style: normal;
+	font-weight: initial;
+	background: rgba(255, 230, 100, 0.5); 
+	background-position: .5rem .5rem;
+}
+
 h1, h2, h3, h4 {
   font-weight: normal;
 	font-weight: bold;
