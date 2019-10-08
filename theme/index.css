@@ -116,7 +116,7 @@ h1, h2, h3, h4 {
   font-weight: bold;
   color: var(--heading-text-color);
   font-size: 1rem;
-  margin: .75rem 0;
+  margin: 1.5rem 0 .5rem;
 }
 
 small, .font_small, h5, h6 {
