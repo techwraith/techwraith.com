@@ -113,9 +113,10 @@ strong em {
 
 h1, h2, h3, h4 {
   font-weight: normal;
-	font-weight: bold;
-	color: var(--heading-text-color);
+  font-weight: bold;
+  color: var(--heading-text-color);
   font-size: 1rem;
+  margin: .75rem 0;
 }
 
 small, .font_small, h5, h6 {
