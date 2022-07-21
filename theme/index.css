@@ -95,7 +95,7 @@ body {
 
 .content {
 	max-width: 30rem;
-	margin: 0 auto;
+	margin: calc(var(--base-line-height) * 4) auto 0 auto;
 }
 
 p {margin-bottom: var(--base-line-height); text-indent: var(--text-indent);}
@@ -118,8 +118,10 @@ strong em {
 h1, h2, h3, h4 {
   font-weight: 700;
   color: var(--heading-text-color);
-  font-size: 1rem;
+  font-size: 1.2rem;
+	line-height: 1.8rem;
   margin: 1.5rem 0 .5rem;
+	font-family: var(--display-font);
 }
 
 small, .font_small, h5, h6 {
@@ -236,11 +238,6 @@ hr {
 	color: var(--understated-text-color);
 }
 
-.home-content {
-	margin-top: var(--base-line-height);
-	font-size: 1rem;
-}
-
 .home-content p:first-of-type, .home-content p:nth-of-type(2) {
 	text-indent: 0;
 }
@@ -258,21 +255,6 @@ hr {
 
 .home-content p:first-of-type a:hover, .home-content p:nth-of-type(2) a:hover {
 	border-bottom: .2rem dotted;
-}
-
-.category-title {
-	list-style: none;
-	margin: var(--base-line-height) 0 var(--base-line-height) calc(0-var(--base-line-height));
-}
-
-.category-title h3 {
-	margin-bottom: 0.25rem;
-	color: var(--understated-text-color);
-	font-style: italic;
-}
-
-.essay-title, .home-content p:first-of-type {
-	margin-top: var(--base-line-height);
 }
 
 .essay-title h1 span {
