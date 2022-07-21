@@ -260,16 +260,6 @@ hr {
 	border-bottom: .2rem dotted;
 }
 
-#signature {
-	margin: var(--base-line-height) 0;
-	text-align: right;
-	display: block;
-}
-
-#signature a {
-	color: var(--understated-text-color);
-}
-
 .category-title {
 	list-style: none;
 	margin: var(--base-line-height) 0 var(--base-line-height) calc(0-var(--base-line-height));
