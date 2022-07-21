@@ -196,7 +196,14 @@ img {
 }
 
 hr {
-	margin: var(--base-line-height) 0;
+	border: none;
+}
+
+hr::before {
+	content: '***';
+	display: block;
+	width: 100%;
+	text-align: center;
 }
 
 .site-header {
@@ -255,6 +262,10 @@ hr {
 
 .home-content p:first-of-type a:hover, .home-content p:nth-of-type(2) a:hover {
 	border-bottom: .2rem dotted;
+}
+
+.category-title {
+	list-style: none;
 }
 
 .essay-title h1 span {
