@@ -206,26 +206,6 @@ hr::before {
 	text-align: center;
 }
 
-.site-header {
-	background: var(--background);
-	width: 100%;
-	padding: 1rem var(--base-line-height) 1rem var(--base-line-height);
-	box-sizing: border-box;
-	border-top: 0.25rem solid var(--bright-text-color);
-	border-bottom: 1px solid var(--accent-color);
-	font-variant: small-caps;
-	font-weight: bold;
-}
-
-.site-header .site-title {
-	font-family: var(--display-font);
-  display: block;
-	font-size: 1rem;
-	text-decoration: none;
-	margin: 0 auto;
-	max-width: 30rem;
-}
-
 .nav {
 	display: flex;
 	justify-content: space-evenly;
@@ -245,22 +225,11 @@ hr::before {
 	color: var(--understated-text-color);
 }
 
-.home-content p:first-of-type, .home-content p:nth-of-type(2) {
-	text-indent: 0;
-}
-.home-content p:nth-of-type(2) {
-  margin-top: 0;
-}
-
-.home-content p:first-of-type {
-  margin-bottom: 0;
-}
-
-.home-content p:first-of-type a, .home-content p:nth-of-type(2) a {
+.home-content p:first-of-type a {
 	text-decoration: none;
 }
 
-.home-content p:first-of-type a:hover, .home-content p:nth-of-type(2) a:hover {
+.home-content p:first-of-type a:hover {
 	border-bottom: .2rem dotted;
 }
 
@@ -276,7 +245,7 @@ hr::before {
 	background: rgba(255, 230, 100, 0.5);
 }
 
-.essay-title h1, .home-content p:first-of-type, .home-content p:nth-of-type(2) {
+.essay-title h1, .home-content p:first-of-type {
 	font-size: 2rem;
 	font-family: var(--display-font);
 	line-height: calc(var(--base-line-height) * 2);
@@ -296,14 +265,10 @@ hr::before {
 	.content {
 		padding: 0 1rem;
 	}
-
-	.site-header {
-		padding-left: 1rem;
-	}
 }
 
 @media print {
-	.site-header, .home-link, .essays-list, .essays-list-title, .nav, .copyright {
+	.home-link, .essays-list, .essays-list-title, .nav, .copyright {
 		display: none;
 	}
 	blockquote {

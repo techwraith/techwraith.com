@@ -1,6 +1,4 @@
-_Hi. I'm Dan._
-
-**_I build [systems][1] that help teams make great decisions._**
+**_Hi. I'm Dan. <br/>I build [systems][1] that help teams make great decisions._**
 
 Every great manager has three tools to help their team achieve their goals: [people][2], [process][2], and [purpose][2]. Using these tools, I'll help you build systems to unlock the potential in your teams.
 
