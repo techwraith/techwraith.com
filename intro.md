@@ -1,4 +1,4 @@
-**_Hi. I'm Dan. I build [systems](https://www.amazon.com/gp/product/1603580557/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1603580557&linkCode=as2&tag=techwraith-20&linkId=308b02a7b2eeb400cb215416315eac2e) that help teams make great decisions_**
+**_Hi. I'm Dan. I build [systems](https://www.amazon.com/gp/product/1603580557/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1603580557&linkCode=as2&tag=techwraith-20&linkId=308b02a7b2eeb400cb215416315eac2e) that help teams make great decisions._**
 
 Systems thinking is the foundation of critical thinking. Whether you want to create change in your personal life, build a better product, or run a meaningful company, becoming a systems thinker will help you learn and make better decisions.
 
