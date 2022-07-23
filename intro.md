@@ -6,8 +6,8 @@ Systems thinking is the foundation of critical thinking. Whether you want to cre
 
 **_I’ve learned a lot along the way about what it takes to build great products and teams_**, and what I've learned is that it’s not always easy. In fact, it's damn hard. Really damn hard.
 
-But that’s okay. Because the hard things in life are usually the most worthwhile.
+But that’s okay. Because the hard things in life are usually the most worthwhile. **_And systems thinking can help us map out the complexities of these systems to find the best way to produce your desired outcome._**
 
-**_My goal is to help you build something great_**. Whether it’s a product, a team, or a company, I want to share what I’ve learned so you can create something amazing.
+**_My goal is to help you build something great_**. Whether it’s a product, a team, a company, or a personal system, I want to share what I’ve learned so you can create something amazing.
 
-**_**So let’s get started.**_**
+**_So let’s get started._**
