@@ -1,15 +1,15 @@
-**_Hi. I'm Dan. <br/>I build [systems][1] that help teams make great decisions._**
+**_Hi. I'm Dan. I build [systems](https://www.amazon.com/gp/product/1603580557/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1603580557&linkCode=as2&tag=techwraith-20&linkId=308b02a7b2eeb400cb215416315eac2e) that help teams make great decisions_**
 
-Every great manager has three tools to help their team achieve their goals: [people][2], [process][2], and [purpose][2]. Using these tools, I'll help you build systems to unlock the potential in your teams.
+Everything is a system. Your team, your company, your product, and even your life. And when you know how to reason about systems, it becomes possible to make better decisions to drive the outcomes that you want to achieve. Without understanding how a particular system works, you'll be flying blind.
 
-## People 
-Which team will perform better: a team that can work brilliantly together, or a team of brilliant jerks? You built a team because you realized that you couldn't do everything yourself. Building and fostering the right team is the core of effective management. **_I build teams who work brilliantly together_**. Organizational research has shown that a team of people from different backgrounds will perform better than a team of similar people. And you can't build a diverse team without first building an inclusive environment. The goal is to foster good listening habits and clear communication skills to create a safe place where the people on your team can thrive. When everyone on a team feels safe to express who they are and what they need to do, magic happens.
+### Helping teams build systems for over a decade.
 
-## Process
-Do you know why roads have lines painted on them? You might guess that there are fewer accidents when there are lines painted on the road, but you'd be wrong. Roads have lines painted on them to encourage faster driving. They remove friction from the system so individual drivers can get from point A to point B in the most optimal way possible. **_That's how I treat process. It documents how a team should behave to get from point A to point B with the least amount of friction possible_**. It's not there to prevent accidents or mistakes. Mistakes are expected and necessary for learning. Process is there to encourage your team to get to its goals in the most optimal way possible.
+I've been fortunate to work with some amazing teams and companies. I was an early engineer at [Yammer](https://yammer.com), CTO at [Getable](https://techcrunch.com/2015/02/25/getable-5m/), and VP of Engineering at [Eaze](https://eaze.com). I'm now the founder and CEO of [Viable](https://askviable.com). 
 
-## Purpose
-The people and the processes in a team determine how they get their work done. But if asked, would your team be able to articulate _why_ they come in to work every day? Purpose is what gives a team its "why." It comes from two types of motivation: extrinsic and intrinsic. **_By defining, tracking, and iterating on these motivations, I help teams find their purpose and keep it top of mind_**. Purpose acts as a team's compass. It tells them where true north is, so they're always moving in the right direction.
+I've learned a lot along the way about what it takes to build great products and teams. I've also learned that it's not always easy. In fact, it's hard. Really hard.
 
-[1]: https://www.amazon.com/gp/product/1603580557/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1603580557&linkCode=as2&tag=techwraith-20&linkId=308b02a7b2eeb400cb215416315eac2e
-[2]: https://www.amazon.com/gp/product/0735219567/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0735219567&linkCode=as2&tag=techwraith-20&linkId=3c59feb36391f213e52b3e91c7f4602c
+But that's okay. Because the hard things are usually the most worthwhile. 
+
+My goal is to help you build something great. Whether it's a product, a team, or a company, I want to share what I've learned so you can create something amazing. 
+
+So let's get started.
