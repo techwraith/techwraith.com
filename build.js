@@ -37,6 +37,8 @@ const render = (path) => md.render(readfile(path))
 const parseEssayDir = (dir, category) => {
   if (!category) category = 'miscellaneous'
   return fs.readdirSync(dir).map((filename) => {
+    // skip if file is .DS_Store
+    if (filename === '.DS_Store') return
     const filePath = dir + '/' + filename
     if (fs.statSync(filePath).isFile()) {
       return {
@@ -53,7 +55,7 @@ const parseEssayDir = (dir, category) => {
         essays: parseEssayDir(filePath, filePath.split('/')[2])
       }
     }
-  })
+  }).filter((essay) => essay)
 }
 
 /* content */
