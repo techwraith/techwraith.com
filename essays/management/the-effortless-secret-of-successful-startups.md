@@ -4,8 +4,6 @@ There's a saying you may have heard, "If you want to keep your competitors at ba
 
 Let's kick things off with the notion of the 'moat'. The term, loaned from Warren Buffett's lexicon, paints investing with a brush of medieval romance. He was all about those businesses with "unbreachable 'moats'", robust defenses keeping rivals at a nonthreatening, non-profitable distance.
 
-> "The issue doesn't lie with the concept of a moat, but with the presumption that it's a strategic construct to be excavated in the initial blueprint of your startup."
-
 Now, don't get me wrong. Buffett's metaphor is quite the page-turner, but here's where I believe he may have overshot the mark. **_The issue doesn't lie with the concept of a moat, but with the presumption that it's a strategic construct to be excavated in the initial blueprint of your startup._**
 
 ## The Unplanned Moat
@@ -21,8 +19,6 @@ In this hyperconnected, instant-gratification age, the olden moats of geography 
 So here's my rather unconventional counsel: Don't obsess over the moat. Cast aside the shovel and focus on your castle. And by 'castle', I mean your startup. The sturdier, more efficient, and better served your 'castle', the more organically your moat appears.
 
 If you're doing things right, you'll find yourself one day, peering out over your domain (or spreadsheet), and spot a moat safeguarding you. And here's the sweet surprise: You won't even recall planning it.
-
-> "A successful startup, like a good mystery, invites questions, incites curiosity, and leaves you thirsting for more."
 
 A successful startup, like a good mystery, invites questions, incites curiosity, and leaves you thirsting for more. It is in this spirit of curiosity and adventure that I encourage you to embark on your entrepreneurial quest. No need to fuss over the moat. Instead, pour your energy into building a startup worth defending, and let the moat sort itself out.
 
