@@ -1,13 +1,11 @@
-**_Hi. I'm Dan. I build [systems](https://www.amazon.com/gp/product/1603580557/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1603580557&linkCode=as2&tag=techwraith-20&linkId=308b02a7b2eeb400cb215416315eac2e) that help teams make great decisions._**
+**_Hello, fellow traveler. I'm Daniel Erickson_**, an explorer of [systems thinking](https://www.amazon.com/gp/product/1603580557/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1603580557&linkCode=as2&tag=techwraith-20&linkId=308b02a7b2eeb400cb215416315eac2e), a navigator in the startup universe, and a relentless learner in the labyrinth of the human mind.
 
-Systems thinking is the foundation of critical thinking. Whether you want to create change in your personal life, build a better product, or run a meaningful company, becoming a systems thinker will help you make the right decision.
+My career has brought me through dynamic and fast-paced environments, where speed and decisiveness are essential. I've led as VP of Engineering at Eaze, served as CTO at Getable, and contributed my skills to the team at Yammer. Currently, as the founder and CEO of [Viable](https://askviable.com), I'm in the thick of it all, wielding my experience and insights to shape a product that's gaining momentum.
 
-**_I've been fortunate to work with some amazing teams and products_**. <br/>I was an early engineer at [Yammer](https://yammer.com), CTO at [Getable](https://techcrunch.com/2015/02/25/getable-5m/), and VP of Engineering at [Eaze](https://eaze.com). I'm now the founder and CEO of [Viable](https://askviable.com). 
+**_Yet, the titles and roles only tell part of the story._** Behind each decision, there's a narrative, a complex network of thoughts, emotions, and actions that have led me to this point. The concept of 'narrative' is not just a literary tool, but a lens through which I view my experiences and the world around me.
 
-**_I’ve learned a lot along the way about what it takes to build great products and teams_**. It’s not always easy. In fact, it's damn hard. Really damn hard.
+In the landscape of startups, where every decision matters and the terrain is ever-changing, I've learned to value the process over perfection. **_I've come to appreciate that each stumble, each misstep, is a goldmine of knowledge and innovation._** And I've realized the importance of identifying leverage points, those unique opportunities that allow a small shift to lead to significant change.
 
-But that’s okay. Because the hard things in life are usually the most worthwhile. **_Systems thinking can help us map out those complexities to find the best path forward for any decision._**
+I invite you to join me on this journey of exploration and understanding. Let’s delve into the interconnected systems that define us, the hidden switches in our minds, and the narratives that shape our reality. 
 
-**_My goal is to help you build something great_**. Whether it’s a product, a team, a company, or something personal, I want to share what I’ve learned so you can create something amazing.
-
-**_So let’s get started._**
+**_Here's to embracing the uncertainty, learning from our journey, and marveling at the beautifully chaotic network that is our interconnected narratives._** Welcome.
