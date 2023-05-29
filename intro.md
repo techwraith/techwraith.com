@@ -1,4 +1,6 @@
-**_Hello, fellow traveler. I'm Daniel Erickson_**, an explorer of [systems thinking](https://www.amazon.com/gp/product/1603580557/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1603580557&linkCode=as2&tag=techwraith-20&linkId=308b02a7b2eeb400cb215416315eac2e), a navigator in the startup universe, and a relentless learner in the labyrinth of the human mind.
+**_Hello, fellow traveler._**
+
+I'm Daniel Erickson, an explorer of [systems thinking](https://www.amazon.com/gp/product/1603580557/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1603580557&linkCode=as2&tag=techwraith-20&linkId=308b02a7b2eeb400cb215416315eac2e), a navigator in the startup universe, and a relentless learner in the labyrinth of the human mind.
 
 My career has brought me through dynamic and fast-paced environments, where speed and decisiveness are essential. I've led as VP of Engineering at Eaze, served as CTO at Getable, and contributed my skills to the team at Yammer. Currently, as the founder and CEO of [Viable](https://askviable.com), I'm in the thick of it all, wielding my experience and insights to shape a product that's gaining momentum.
 
