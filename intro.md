@@ -1,13 +1,10 @@
-**_Hello, fellow traveler._**
+**_Greetings, Curious Mind,_**
 
-I'm Daniel Erickson, an explorer of [systems thinking](https://www.amazon.com/gp/product/1603580557/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1603580557&linkCode=as2&tag=techwraith-20&linkId=308b02a7b2eeb400cb215416315eac2e), a navigator in the startup universe, and a relentless learner in the labyrinth of the human mind.
+I'm Dan Erickson, Founder and CEO of Viable. My career journey has meandered through various roles, including VP of Engineering at Eaze, CTO at Getable, and as an early engineer at Yammer. Currently, my focus is on transforming customer feedback from raw data into a strategic asset for companies.
 
-My career has brought me through dynamic and fast-paced environments, where speed and decisiveness are essential. I've led as VP of Engineering at Eaze, served as CTO at Getable, and contributed my skills to the team at Yammer. Currently, as the founder and CEO of [Viable](https://askviable.com), I'm in the thick of it all, wielding my experience and insights to shape a product that's gaining momentum.
+**_While job titles offer a snapshot, they often fail to capture the complexity of one's approach._** I use systems thinking to map out complex landscapes and identify leverage points for change. **_In parallel, narrative helps me understand human motivations, enabling me to apply that understanding to effect meaningful shifts within those systems._** The blend of these two perspectives is my compass for navigating both the technological and organizational facets of my work.
 
-**_Yet, the titles and roles only tell part of the story._** Behind each decision, there's a narrative, a complex network of thoughts, emotions, and actions that have led me to this point. The concept of 'narrative' is not just a literary tool, but a lens through which I view my experiences and the world around me.
+If you're as fascinated by the intricacies of technology, systems, and what makes people tick as I am, I'd love for you to jump in. **_You're welcome to read what I've written, share your thoughts, or even team up with me on a project._** Together, we can make a real impact.
 
-In the landscape of startups, where every decision matters and the terrain is ever-changing, I've learned to value the process over perfection. **_I've come to appreciate that each stumble, each misstep, is a goldmine of knowledge and innovation._** And I've realized the importance of identifying leverage points, those unique opportunities that allow a small shift to lead to significant change.
-
-I invite you to join me on this journey of exploration and understanding. Let’s delve into the interconnected systems that define us, the hidden switches in our minds, and the narratives that shape our reality. 
-
-**_Here's to embracing the uncertainty, learning from our journey, and marveling at the beautifully chaotic network that is our interconnected narratives._** Welcome.
+Best regards,
+Dan Erickson
